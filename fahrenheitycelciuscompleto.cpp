@@ -3,10 +3,16 @@
 
 int main() {
 	
-	float celcius = 18;
-	float fahrenheit = 86;
+	float celcius;
+	float fahrenheit;
 	float temperaturaFahrenheit;
 	float temperaturaCelsius; 
+	
+	printf("dame el valor que deseas procesar en celcius\n");
+	scanf("%f",&celcius);
+	
+	printf("dame el valor que deseas procesar en fahrenheit\n");
+	scanf("%f",&fahrenheit);
 	
 	temperaturaFahrenheit = (9.0/5.0) * celcius + 32;
 	temperaturaCelsius = (fahrenheit - 32.0) * (5.0/9.0);
